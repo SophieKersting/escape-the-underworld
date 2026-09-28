@@ -5,7 +5,7 @@
 
 # --- Secrets & credentials (never commit these!) ---
 # Environment files typically hold passwords, API keys, connection strings.
-.env
+*.env
 .env.*
 # Private keys and certificates.
 *.pem
