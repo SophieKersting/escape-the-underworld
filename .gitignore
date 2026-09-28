@@ -1,0 +1,25 @@
+# .gitignore — files and folders Git should never track.
+# Each line is a pattern. "*" matches anything, a trailing "/" means "folder".
+# This file is intentionally small; we extend it whenever a module introduces
+# new tools (e.g. dependencies in M2, Terraform state in M7).
+
+# --- Secrets & credentials (never commit these!) ---
+# Environment files typically hold passwords, API keys, connection strings.
+.env
+.env.*
+# Private keys and certificates.
+*.pem
+*.key
+*.pfx
+*.p12
+
+# --- Operating system clutter ---
+# Windows thumbnail cache and folder settings.
+Thumbs.db
+desktop.ini
+# macOS folder metadata.
+.DS_Store
+
+# --- Editor / IDE settings (personal, not project-wide) ---
+.vscode/
+.idea/
