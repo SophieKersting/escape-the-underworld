@@ -9,7 +9,9 @@ meinen Worten" (schreibe ich selbst, als Mini-Zusammenfassung).
 
 ## Module
 
-- [ ] **M0 — Werkzeugkasten & Repo-Setup**
+- [x] **M0 — Werkzeugkasten & Repo-Setup** — abgeschlossen am 28.09.2026
+  *Kernaussage:* Secrets und Datenschutz klärt man vor dem ersten Commit,
+  nicht danach.
   Git installiert/konfiguriert, GitHub-Repo angelegt, Azure CLI eingerichtet,
   erstes minimales README (Was ist das, Lernprojekt DevOps, geplanter Stack),
   sinnvolle .gitignore. Erster Commit. Remote vorerst privat. 
