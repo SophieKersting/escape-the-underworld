@@ -7,6 +7,7 @@ CI/CD, Containerisierung, Infrastructure as Code und Deployment in die Cloud.
 
 - Spielidee und Scope: [GAME.md](GAME.md)
 - Lernpfad und Fortschritt: [PLAN.md](PLAN.md)
+- Architekturentscheidungen (ADRs): [docs/decisions/](docs/decisions/)
 
 ## Entstehung mit KI-Unterstützung
 
