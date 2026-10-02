@@ -17,7 +17,11 @@ meinen Worten" (schreibe ich selbst, als Mini-Zusammenfassung).
   sinnvolle .gitignore. Erster Commit. Remote vorerst privat. 
   Begriffe: Repository, Commit, Remote.
 
-- [ ] **M1 — Git-Workflow**
+- [x] **M1 — Git-Workflow** — abgeschlossen am 02.10.2026
+  *Kernaussage:* Push Protection verhindert Push von sicherheitsrelevanten
+  Inhalten (zB Keys) und Branch Protection erzwingt einen Workflow bei dem auf
+  Feature-Branches entwickelt wird und Änderungen dann nur durch einen Pull
+  Request auf main landen können.
   Branches, Pull Requests, Branch-Schutz auf main, sinnvolle Commit-Messages.
   Wir üben den Zyklus einmal komplett an einer README-Änderung. Git Repo 
   öffentlich schalten und GitHub Push Protection aktivieren.

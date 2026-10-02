@@ -34,7 +34,15 @@ Entscheidungen treffe ich selbst. Wie die Zusammenarbeit genau abläuft, ist in
 - **M0 — Werkzeugkasten & Repo-Setup:** Git und GitHub eingerichtet. Secrets
   und Datenschutz von Anfang an mitgedacht: Zugangsdaten liegen nur lokal
   außerhalb des Repos, Commits laufen über eine No-Reply-Adresse. Weitere
-  Schutzschichten sind geplant: GitHub Push Protection (M1) und ein
-  Secret-Scan mit gitleaks (M5).
+  Schutzschichten: GitHub Push Protection (aktiv seit M1) und ein Secret-Scan
+  mit gitleaks (geplant, M5).
+- **M1 — Git-Workflow:** Das Repo ist öffentlich, GitHub Push Protection ist
+  aktiv. Für `main` gilt Branch Protection, damit dort stets ein geprüfter
+  Stand liegt: keine direkten Pushes oder Force-Pushes, auch nicht für Admins.
+  Jede Änderung entsteht auf einem Feature-Branch und gelangt per Pull Request
+  nach `main`. Da ich allein arbeite, prüfe ich jeden PR im Self-Review anhand
+  des Diffs. Gemergt wird per Squash and Merge, sodass `main` pro PR genau
+  einen Commit nach
+  [Conventional Commits](docs/decisions/0001-conventional-commits.md) erhält.
 
 Details zu allen Modulen: [PLAN.md](PLAN.md)
