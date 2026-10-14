@@ -31,7 +31,7 @@ spielen abwechselnd am selben Bildschirm/Gerät, es gibt keinerlei
 Netzwerk-/Online-Funktionalität.
 
 **Setup-Bildschirm**
-- 1–6 Spieler; pro Spieler: Farbe wählbar, ab 2 Spielern Zugreihenfolge
+- 1–6 Spieler; pro Spieler: Farbe wählbar (jede Farbe nur einmal vergeben), ab 2 Spielern Zugreihenfolge
   anpassbar
 - Button "Spiel starten"
 

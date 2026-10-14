@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+  background: #1e1b26;
+  color: #ece8f4;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+button,
+select {
+  font: inherit;
+  padding: 6px 12px;
+  margin: 4px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.secondary {
+  margin-top: 16px;
+}
+
+button.small {
+  padding: 2px 8px;
+}
+
+.setup-list {
+  display: inline-block;
+  text-align: left;
+  padding-left: 1.5em;
+}
+
+.setup-player {
+  margin: 6px 0;
+}
+
+.name {
+  display: inline-block;
+  min-width: 5.5em;
+}
+
+.dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.status {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Keeps its height when empty, so the board does not jump up and down. */
+.message {
+  min-height: 1.5em;
+  color: #f0b45a;
+}
+
+/* Invisible, but still takes up its space (unlike display: none). */
+.hidden {
+  visibility: hidden;
+}
+
+.board {
+  width: 100%;
+  max-width: 420px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cell {
+  fill: #3a3448;
+  stroke: #1e1b26;
+  stroke-width: 2;
+}
+
+.cell.selectable {
+  fill: #5c5274;
+  cursor: pointer;
+}
+
+.cell.selectable:hover {
+  fill: #7a6d99;
+}
+
+.piece {
+  stroke: #1e1b26;
+  stroke-width: 2;
+}

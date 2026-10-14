@@ -1,0 +1,25 @@
+// TypeScript configuration. Used by "tsc" for type checking (see "build" in package.json).
+// Vite itself only strips the types away and does not check them.
+{
+  "compilerOptions": {
+    // Which JavaScript version the code may use, and which built-in APIs exist
+    // ("DOM" = browser APIs such as document.querySelector).
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+
+    // Modern import/export syntax, resolved the way a bundler like Vite does it.
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    // Strict type checking: e.g. values that may be null must be checked first.
+    "strict": true,
+
+    // tsc only checks; Vite produces the actual JavaScript files.
+    "noEmit": true,
+
+    // Do not type-check the type definitions shipped inside node_modules.
+    "skipLibCheck": true
+  },
+  // Only our own source code is checked.
+  "include": ["src"]
+}
