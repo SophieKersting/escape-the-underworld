@@ -13,6 +13,13 @@
 *.pfx
 *.p12
 
+# --- Dependencies & build output ---
+# Installed packages: restored anytime with "npm install" from package.json
+# and package-lock.json, so they never belong in the repo.
+node_modules/
+# Build result of "npm run build": generated from src/, never edited by hand.
+dist/
+
 # --- Operating system clutter ---
 # Windows thumbnail cache and folder settings.
 Thumbs.db
